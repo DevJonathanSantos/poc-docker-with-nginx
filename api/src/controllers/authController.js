@@ -1,6 +1,7 @@
 import authService from "../services/authService.js";
 
 async function signup(req, res) {
+  console.log("XXXXXXXXXX");
   const body = req.body;
 
   try {
